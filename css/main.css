@@ -1,0 +1,49 @@
+.nav-item:hover{
+    border-bottom:  2px solid purple;
+}
+
+.active{
+    border-bottom: 2px solid rebeccapurple;
+}
+
+.zoekSpeler{
+    border: 1px solid purple;
+    color:  rebeccapurple;
+}
+
+.zoekSpeler:hover{
+    background-color: rebeccapurple;
+}
+
+h2{
+    color: rebeccapurple;
+    font-family: 'Poppins', sans-serif;
+}
+
+#twitterFeed{
+    height: 600px;
+    overflow-y: scroll;
+}
+
+.modal-lg {
+    max-width: 70% !important;
+}
+
+.mainBlock {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 16px;
+    right: 32px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
