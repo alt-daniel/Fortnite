@@ -65,7 +65,156 @@
     </div>
 </nav>
 
+<!--"totals": {-->
+<!--"kills": 75151,-->
+<!--"wins": 3857,-->
+<!--"matchesplayed": 10418,-->
+<!--"minutesplayed": 50091,-->
+<!--"hoursplayed": 835,-->
+<!--"score": 3968247,-->
+<!--"winrate": 37.02,-->
+<!--"kd": 11.45,-->
+<!--"lastupdate": 1535396497-->
+<!---->
 
+<div class="container" style="padding-top: 2em">
+
+    <div class="row">
+        <div class="col" style="border: 1px solid purple">
+            <h1>YoungLuck</h1>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <th scope="row">
+                            <li class="numberTable">80</li>
+                        <li class="typeTable">Kills</li>
+                        </th>
+                        <th>
+
+                            <li class="numberTable">54</li>
+                            <li class="typeTable">Wins</li>
+
+                            </th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+<div class="row">
+    <div class="col-lg-4">
+        <div class="mainContent">
+        <div class="mainHeader">
+            Solo
+        </div>
+            <div class="mainBody">
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <th scope="row">Wins</th>
+                        <td scope="row">80</td>
+
+                    </tr>
+
+
+                    <tr>
+                        <th scope="row">Kills</th>
+                        <td>200</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">K/D</th>
+                        <td>1.8</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">Matches</th>
+                        <td>500</td>
+
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4">
+        <div class="mainContent">
+        <div class="mainHeader">
+            Duo
+        </div>
+            <div class="mainBody">
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <th scope="row">Wins</th>
+                        <td scope="row">80</td>
+
+                    </tr>
+
+
+                    <tr>
+                        <th scope="row">Kills</th>
+                        <td>200</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">K/D</th>
+                        <td>1.8</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">Matches</th>
+                        <td>500</td>
+
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+    </div>
+    </div>
+
+    <div class="col-lg-4">
+        <div class="mainContent">
+        <div class="mainHeader">
+            Squad
+        </div>
+            <div class="mainBody">
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <th scope="row">Wins</th>
+                        <td scope="row">80</td>
+
+                    </tr>
+
+
+                    <tr>
+                        <th scope="row">Kills</th>
+                        <td>200</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">K/D</th>
+                        <td>1.8</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">Matches</th>
+                        <td>500</td>
+
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+    </div>
+
+    </div>
+
+</div>
+
+</div>
 
 
 
