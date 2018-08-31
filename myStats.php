@@ -20,7 +20,7 @@
 <body>
 <div class="imageBg">
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: rgba(255,255,255,0.7)!important;">
     <a class="navbar-brand" href="#">
         <img src="img/fortnite.png" width="40" height="40">
     </a>
@@ -95,22 +95,22 @@
 
                         <th scope="col" style="width: 15%">
                             <li class="numberTable">300</li>
-                            <li class="typeTable">MP</li>
+                            <li class="typeTable">Matches Played</li>
                         </th>
 
                         <th scope="col" style="width: 15%">
                             <li class="numberTable">1.8</li>
-                            <li class="typeTable">K/d</li>
-                        </th>
-
-                        <th scope="col" style="width: 15%">
-                            <li class="numberTable">100</li>
-                            <li class="typeTable">Matches Played</li>
+                            <li class="typeTable">K/D</li>
                         </th>
 
                         <th scope="col" style="width: 15%">
                             <li class="numberTable">30</li>
                             <li class="typeTable">% Winrate</li>
+                        </th>
+
+                        <th scope="col" style="width: 15%">
+                            <li class="numberTable">10000</li>
+                            <li class="typeTable">Score</li>
                         </th>
 
                     </tr>
@@ -148,8 +148,21 @@
                         <td>1.8</td>
 
                     </tr>
+
+                    <tr>
+                        <th scope="row">Winrate</th>
+                        <td>500</td>
+
+                    </tr>
+
                     <tr>
                         <th scope="row">Matches</th>
+                        <td>500</td>
+
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Score</th>
                         <td>500</td>
 
                     </tr>
@@ -161,27 +174,23 @@
                 <table class="table">
                     <tbody>
                     <tr>
-                        <th scope="row">Wins</th>
+                        <th scope="row">Top 1</th>
                         <td scope="row">80</td>
 
                     </tr>
 
 
                     <tr>
-                        <th scope="row">Kills</th>
+                        <th scope="row">Top 10</th>
                         <td>200</td>
 
                     </tr>
                     <tr>
-                        <th scope="row">K/D</th>
+                        <th scope="row">top 25</th>
                         <td>1.8</td>
 
                     </tr>
-                    <tr>
-                        <th scope="row">Matches</th>
-                        <td>500</td>
 
-                    </tr>
                     </tbody>
                 </table>
 
@@ -215,8 +224,23 @@
                         <td>1.8</td>
 
                     </tr>
+
+                    <tr>
+                        <th scope="row">Winrate</th>
+                        <td>500</td>
+
+                    </tr>
+
                     <tr>
                         <th scope="row">Matches</th>
+                        <td>500</td>
+
+                    </tr>
+
+
+
+                    <tr>
+                        <th scope="row">Score</th>
                         <td>500</td>
 
                     </tr>
@@ -227,27 +251,23 @@
                 <table class="table">
                     <tbody>
                     <tr>
-                        <th scope="row">Wins</th>
+                        <th scope="row">Top 1</th>
                         <td scope="row">80</td>
 
                     </tr>
 
 
                     <tr>
-                        <th scope="row">Kills</th>
+                        <th scope="row">Top 3</th>
                         <td>200</td>
 
                     </tr>
                     <tr>
-                        <th scope="row">K/D</th>
+                        <th scope="row">Top 6</th>
                         <td>1.8</td>
 
                     </tr>
-                    <tr>
-                        <th scope="row">Matches</th>
-                        <td>500</td>
 
-                    </tr>
                     </tbody>
                 </table>
 
@@ -281,7 +301,18 @@
 
                     </tr>
                     <tr>
+                        <th scope="row">Winrate</th>
+                        <td>500</td>
+
+                    </tr>
+                    <tr>
                         <th scope="row">Matches</th>
+                        <td>500</td>
+
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Score</th>
                         <td>500</td>
 
                     </tr>
@@ -292,27 +323,23 @@
                 <table class="table">
                     <tbody>
                     <tr>
-                        <th scope="row">Wins</th>
+                        <th scope="row">Top 1</th>
                         <td scope="row">80</td>
 
                     </tr>
 
 
                     <tr>
-                        <th scope="row">Kills</th>
+                        <th scope="row">Top 5</th>
                         <td>200</td>
 
                     </tr>
                     <tr>
-                        <th scope="row">K/D</th>
+                        <th scope="row">Top 12</th>
                         <td>1.8</td>
 
                     </tr>
-                    <tr>
-                        <th scope="row">Matches</th>
-                        <td>500</td>
 
-                    </tr>
                     </tbody>
                 </table>
             </div>
