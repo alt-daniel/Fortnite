@@ -18,6 +18,8 @@
 </head>
 
 <body>
+<div class="imageBg">
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">
         <img src="img/fortnite.png" width="40" height="40">
@@ -65,50 +67,68 @@
     </div>
 </nav>
 
-<!--"totals": {-->
-<!--"kills": 75151,-->
-<!--"wins": 3857,-->
-<!--"matchesplayed": 10418,-->
-<!--"minutesplayed": 50091,-->
-<!--"hoursplayed": 835,-->
-<!--"score": 3968247,-->
-<!--"winrate": 37.02,-->
-<!--"kd": 11.45,-->
-<!--"lastupdate": 1535396497-->
-<!---->
 
-<div class="container" style="padding-top: 2em">
+<div class="container" style="padding-top: 2em; padding-bottom: 1em"">
 
-    <div class="row">
-        <div class="col" style="border: 1px solid purple">
-            <h1>YoungLuck</h1>
+    <div class="row" style="margin-bottom: 3em; padding-right: 15px; padding-left: 15px">
+
+        <div class="col score">
+            <div class="mainTitle">
+            <h1 style="text-align: center; padding: 1em 0 1em 0;">YoungLuck</h1>
+                <i class="fab fa-windows windowsIcon"></i>
+            </div>
+            <div class="mainTitlePlatform" style="float: right">
+
+            </div>
             <table class="table">
                 <tbody>
                     <tr>
-                        <th scope="row">
+                        <th scope="col" style="width: 15%">
                             <li class="numberTable">80</li>
-                        <li class="typeTable">Kills</li>
+                            <li class="typeTable">Kills</li>
                         </th>
-                        <th>
 
+                        <th scope="col" style="width: 15%">
                             <li class="numberTable">54</li>
                             <li class="typeTable">Wins</li>
+                        </th>
 
-                            </th>
+                        <th scope="col" style="width: 15%">
+                            <li class="numberTable">300</li>
+                            <li class="typeTable">MP</li>
+                        </th>
+
+                        <th scope="col" style="width: 15%">
+                            <li class="numberTable">1.8</li>
+                            <li class="typeTable">K/d</li>
+                        </th>
+
+                        <th scope="col" style="width: 15%">
+                            <li class="numberTable">100</li>
+                            <li class="typeTable">Matches Played</li>
+                        </th>
+
+                        <th scope="col" style="width: 15%">
+                            <li class="numberTable">30</li>
+                            <li class="typeTable">% Winrate</li>
+                        </th>
+
                     </tr>
                 </tbody>
             </table>
         </div>
 
+
     </div>
 
 <div class="row">
+    <img src="img/lama.png" id="lamaImg">
     <div class="col-lg-4">
         <div class="mainContent">
         <div class="mainHeader">
             Solo
         </div>
-            <div class="mainBody">
+            <div class="mainBody score">
                 <table class="table">
                     <tbody>
                     <tr>
@@ -135,6 +155,37 @@
                     </tr>
                     </tbody>
                 </table>
+
+                <hr style="border: 0.5px solid white;">
+
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <th scope="row">Wins</th>
+                        <td scope="row">80</td>
+
+                    </tr>
+
+
+                    <tr>
+                        <th scope="row">Kills</th>
+                        <td>200</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">K/D</th>
+                        <td>1.8</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">Matches</th>
+                        <td>500</td>
+
+                    </tr>
+                    </tbody>
+                </table>
+
+
             </div>
         </div>
     </div>
@@ -144,7 +195,7 @@
         <div class="mainHeader">
             Duo
         </div>
-            <div class="mainBody">
+            <div class="mainBody score">
                 <table class="table">
                     <tbody>
                     <tr>
@@ -171,6 +222,35 @@
                     </tr>
                     </tbody>
                 </table>
+                <hr style="border: 0.5px solid white;">
+
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <th scope="row">Wins</th>
+                        <td scope="row">80</td>
+
+                    </tr>
+
+
+                    <tr>
+                        <th scope="row">Kills</th>
+                        <td>200</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">K/D</th>
+                        <td>1.8</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">Matches</th>
+                        <td>500</td>
+
+                    </tr>
+                    </tbody>
+                </table>
+
             </div>
     </div>
     </div>
@@ -180,7 +260,35 @@
         <div class="mainHeader">
             Squad
         </div>
-            <div class="mainBody">
+            <div class="mainBody score">
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <th scope="row">Wins</th>
+                        <td scope="row">80</td>
+
+                    </tr>
+
+
+                    <tr>
+                        <th scope="row">Kills</th>
+                        <td>200</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">K/D</th>
+                        <td>1.8</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">Matches</th>
+                        <td>500</td>
+
+                    </tr>
+                    </tbody>
+                </table>
+                <hr style="border: 0.5px solid white;">
+
                 <table class="table">
                     <tbody>
                     <tr>
@@ -214,8 +322,13 @@
 
 </div>
 
+<div class="row" style="margin-bottom: 3em; padding-right: 15px; padding-left: 15px; margin-top: 2em">
+    <div class="col score">
+        <h1 style="padding-top: 0.5em">Conclusion</h1>
+        <hr style="border: 0.5px solid white">
+        <p>Youngluck has a positive K/D! It </p>
+    </div>
 </div>
-
 
 
 
